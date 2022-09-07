@@ -1,0 +1,7 @@
+# local modules
+nodes_modules
+
+# environment variables
+.env
+*.json
+!package.json

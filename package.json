@@ -1,0 +1,21 @@
+{
+  "name": "discord-google-calendar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.2.0",
+    "dotenv": "^16.0.1",
+    "googleapis": "39"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.8",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "start": "node ./build/index.js",
+    "build": "tsc"
+  }
+}
